@@ -13,7 +13,7 @@ body{
   background-color: #ffffff;
 }
 header{
-  background-image: url(images/2.jpg);
+  background-image: url(/images/bg2.jpeg);
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
@@ -62,14 +62,14 @@ a.nav1{
   color: white;
 }
 p.sub-head-1{
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-family: 'Arvo', sans-serif;
   letter-spacing: 0.6px;
   border-bottom: 1px solid #00ffff;
   color: white;
 }
 p.sub-head-2{
-  font-size: 1rem;
+  font-size: .9rem;
   font-family: 'Questrial', sans-serif;
   letter-spacing: 0.6px;
   color: rgb(251, 249, 249);
@@ -168,20 +168,24 @@ footer a{
     width: 100%;
     background-color: #ffffff;
   }
-  header{
-    background-image: url(images/2.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
   .sub-head{
-    height: 70vh;
+    height: 75vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: auto;
     color: white;
+  }
+  p.sub-head-1{
+    background-color: rgb(80, 80, 80, .2);
+    padding: 20px 0;
+    font-size: 3.5rem;
+  }
+  p.sub-head-2{
+    background-color: rgb(80, 80, 80, .1);
+    font-size: 1.2rem;
+    padding: 20px;
   }
   section {
     padding: 50px 100px;
