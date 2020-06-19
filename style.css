@@ -67,6 +67,7 @@ p.sub-head-1{
   letter-spacing: 0.6px;
   border-bottom: 1px solid #00ffff;
   color: white;
+  text-align: center;
 }
 p.sub-head-2{
   font-size: 1rem;
