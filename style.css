@@ -1,0 +1,142 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  width: 100%;
+  background-color: aliceblue;
+}
+header{
+  background-image: url(images/2.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+.head-container{
+  padding: 10px 0;
+  background: rgb(0, 0, 0, 0.7);
+}
+h3.logo a{
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: rgb(9, 214, 214);
+  margin: 0 10px;
+  cursor: pointer;
+}
+nav.desktop{
+  display: none;
+  position: absolute;
+}
+nav.mobile{
+  display: none;
+  width: 100%;
+  top: 8vh;
+  height: 92vh;
+  position: absolute;
+  text-align: center;
+  background: rgb(0, 0, 0);
+}
+p.nav1{
+  margin: 15% 0;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+a.nav1{
+  text-decoration: none;
+  color: lightblue;
+}
+.sub-head{
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  color: white;
+}
+p.sub-head-1{
+  font-size: 1rem;
+  letter-spacing: 0.6px;
+  border-bottom: 1px solid aqua;
+  color: white;
+}
+p.sub-head-2{
+  font-size: 0.8rem;
+  letter-spacing: 0.6px;
+  color: grey;
+}
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px 20px;
+}
+label{
+  font-size: 1rem;
+  font-weight: bold;
+}
+label.operator{
+  font-weight: 100;
+}
+p.text-2{
+  font-size: 1rem;
+  font-weight: bold;
+}
+input[type="number"]{
+  width: 100%;
+  font-size: 0.8rem;
+  padding: 10px 20px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  outline: aliceblue;
+  margin-bottom: 20px;
+}
+input[type="radio"]{
+  margin: 5px 0 20px 10px;
+}
+input#mtn{
+  margin-left: 0;
+}
+button{
+  width: 65%;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(64, 202, 64);
+  cursor: pointer;
+}
+footer{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 0.85rem;
+  color: white;
+  padding: 10px;
+  background: rgb(0, 0, 0);
+}
+footer a{
+  text-decoration: none;
+  color: gray;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 359px){
+  section{
+    padding: 60px 30px;
+  }
+}
+
+@media screen and (min-width: 374px){
+  section{
+    padding: 60px 35px;
+  }
+}
