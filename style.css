@@ -17,7 +17,7 @@ header{
   background-image: url(images/bg2.jpeg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 180%;
+  background-size: cover;
 }
 .head-container{
   padding: 30px 0;
@@ -27,7 +27,7 @@ div.logo-mobile a{
   position: absolute;
   top: 0;
   right: 0;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-decoration: none;
   color: rgb(242, 242, 249);
   cursor: pointer;
@@ -209,7 +209,7 @@ a.nav1{
 
 
 .sub-head{
-  height: 30vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -219,11 +219,13 @@ a.nav1{
   margin-top: -20px;
 }
 p.sub-head-1{
-  font-size: 1.35rem;
+  font-size: 2rem;
   font-family: 'Arvo', sans-serif;
   letter-spacing: 0.6px;
   border-bottom: 1px solid #00ffff;
   color: white;
+  background-color: rgba(51, 50, 56, 0.15);
+  padding: 5px;
   text-align: center;
 }
 p.sub-head-2{
@@ -232,7 +234,8 @@ p.sub-head-2{
   font-family: 'Questrial', sans-serif;
   letter-spacing: 0.6px;
   color: white;
-  padding-top: 5px;
+  background-color: rgba(51, 50, 56, 0.6);
+  padding: 10px;
 }
 section{
   display: flex;
@@ -331,7 +334,7 @@ footer a{
     background: rgb(0, 0, 0, 0.3);
   }
   .sub-head{
-    height: 50vh;
+    height: 75vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -386,7 +389,7 @@ footer a{
     font-size: 2.8rem;
   }
   p.sub-head-2{
-    background-color: rgb(80, 80, 80, .5);
+    background-color: rgba(32, 13, 13, 0.3);
     font-size: 1.2rem;
     padding: 20px;
   }
