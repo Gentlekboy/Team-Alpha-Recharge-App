@@ -14,10 +14,10 @@ body{
   font-family: 'Questrial', sans-serif;
 }
 header{
-  background-image: url(/images/bg2.jpeg);
+  background-image: url(images/bg2.jpeg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 180%;
 }
 .head-container{
   padding: 30px 0;
@@ -209,28 +209,30 @@ a.nav1{
 
 
 .sub-head{
-  height: 50vh;
+  height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: auto;
   color: white;
+  margin-top: -20px;
 }
 p.sub-head-1{
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   font-family: 'Arvo', sans-serif;
   letter-spacing: 0.6px;
   border-bottom: 1px solid #00ffff;
   color: white;
-  background-color: rgb(80, 80, 80, .2);
+  text-align: center;
 }
 p.sub-head-2{
-  font-size: .9rem;
+  font-size: 1rem;
+  font-style: italic;
+  font-family: 'Questrial', sans-serif;
   letter-spacing: 0.6px;
-  color: rgb(251, 249, 249);
-  padding-top: 20px;
-  background-color: rgb(80, 80, 80, .6);
+  color: white;
+  padding-top: 5px;
 }
 section{
   display: flex;
@@ -317,9 +319,11 @@ footer a{
 
 @media screen and (min-width: 768px) {
 
-  body{
-    width: 100%;
-    background-color: #ffffff;
+  header{
+    background-image: url(images/bg2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
   
   .head-container{
@@ -327,7 +331,7 @@ footer a{
     background: rgb(0, 0, 0, 0.3);
   }
   .sub-head{
-    height: 75vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -379,7 +383,7 @@ footer a{
   p.sub-head-1{
     background-color: rgb(80, 80, 80, .2);
     padding: 20px 0;
-    font-size: 3rem;
+    font-size: 2.8rem;
   }
   p.sub-head-2{
     background-color: rgb(80, 80, 80, .5);
@@ -406,7 +410,13 @@ footer a{
   }
   footer{
     width: auto;
-    padding: 50px 0;
+    padding: 30px 0;
     background: rgb(52,49,93);
+  }
+}
+
+@media screen and (min-width: 1300px){
+  p.sub-head-2{
+    background-color: rgb(80, 80, 80, .1);
   }
 }
