@@ -4,6 +4,7 @@
   "description": "Damilola Babalola - @dharmyx - Frontend\r Farinde David - @Youngdavid45",
   "main": "app.js",
   "scripts": {
+    "start": "parcel index.html",
     "dev": "parcel index.html",
     "build": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
